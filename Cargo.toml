@@ -28,3 +28,4 @@ hex = "0.4.3"
 overflow-checks = true
 lto = "fat"
 codegen-units = 1
+# rev-01000
