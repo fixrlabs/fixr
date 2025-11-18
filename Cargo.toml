@@ -1,0 +1,30 @@
+[workspace]
+members = [
+    "programs/fixr_core",
+    "crates/zk_prover",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.3.1"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/velyadotdev/fixr"
+authors = ["velyadotdev <velyadotdev@users.noreply.github.com>"]
+
+[workspace.dependencies]
+anchor-lang = { version = "0.29.0", features = ["init-if-needed"] }
+anchor-spl = "0.29.0"
+solana-program = "=1.17.0"
+spl-token-2022 = "1.0.0"
+borsh = "0.10.3"
+sha2 = "0.10.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+hex = "0.4.3"
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
