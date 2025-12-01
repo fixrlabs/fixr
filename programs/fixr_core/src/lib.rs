@@ -10,3 +10,4 @@ pub mod fixr_core {
 
 #[derive(Accounts)]
 pub struct Ping {}
+// rev-01006
