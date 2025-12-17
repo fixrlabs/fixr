@@ -19,3 +19,4 @@ pub enum FixrError {
     #[msg("Account data is shorter than required layout.")]
     AccountTooSmall,
 }
+// rev-01020
