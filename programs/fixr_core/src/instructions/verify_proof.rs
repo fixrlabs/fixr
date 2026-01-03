@@ -49,3 +49,4 @@ pub fn handler(ctx: Context<VerifyProof>, args: VerifyProofArgs) -> Result<()> {
     record._padding = [0u8; 6];
     Ok(())
 }
+// rev-01043
