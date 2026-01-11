@@ -45,4 +45,4 @@ pub fn handler(ctx: Context<RegisterDisclosure>, policy: DisclosureArgs) -> Resu
     account._padding = [0u8; 7];
     Ok(())
 }
-// rev-01044
+// rev-01051
