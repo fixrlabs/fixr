@@ -32,4 +32,4 @@ pub fn handler(ctx: Context<Initialize>, cfg: InitConfig) -> Result<()> {
     registry._padding = [0u8; 7];
     Ok(())
 }
-// rev-01026
+// rev-01066
