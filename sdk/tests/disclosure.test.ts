@@ -25,3 +25,4 @@ describe('DisclosureBuilder', () => {
     expect(policy.predicateKind).toBe(PredicateKind.MaxBalance);
   });
 });
+// rev-01072
