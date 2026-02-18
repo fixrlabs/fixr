@@ -32,4 +32,4 @@ The ```FixrError``` enum covers expired policies, replayed nonces, invalid
 proofs, and authority mismatches. The SDK maps each code to a stable string so
 UI layers can render diagnostics without relying on Anchor internals.
 
-<!-- rev-01076 -->
+<!-- rev-01082 -->
