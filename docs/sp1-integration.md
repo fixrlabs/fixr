@@ -25,4 +25,4 @@ witness hash.
 - The Rust crate keeps the ```prove``` and ```verify``` functions as the
   stable public surface; everything else is internal.
 
-<!-- rev-01075 -->
+<!-- rev-01086 -->
