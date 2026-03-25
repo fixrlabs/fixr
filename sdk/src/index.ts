@@ -15,4 +15,4 @@ export function createClient(namespace = 'fixr-policy-v1') {
   const disclosure = new DisclosureBuilder(namespace);
   return { prover, disclosure };
 }
-// rev-01081
+// rev-01110
