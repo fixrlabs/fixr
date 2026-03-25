@@ -25,4 +25,4 @@ The namespace passed to ```createClient(``````fixr-policy-v1``````)``` is
 mixed into every commitment. When the predicate catalogue grows, bump the
 version to avoid colliding with policies registered under the old rules.
 
-<!-- rev-01063 -->
+<!-- rev-01111 -->
