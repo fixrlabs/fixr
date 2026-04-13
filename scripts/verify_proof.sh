@@ -14,4 +14,4 @@ node -e "const p = require('./' + process.argv[1]); console.log(JSON.stringify({
   proof_hash: p.proof_hash,
   ok: Array.isArray(p.bytes) && p.bytes.length >= 96,
 }, null, 2));" "$PROOF_FILE"
-# rev-01116
+# rev-01124
