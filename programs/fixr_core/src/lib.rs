@@ -32,18 +32,12 @@ pub mod fixr_core {
     }
 
     /// Generate a proof request slot for an off-chain prover to fulfil.
-    pub fn generate_proof(
-        ctx: Context<GenerateProof>,
-        args: GenerateProofArgs,
-    ) -> Result<()> {
+    pub fn generate_proof(ctx: Context<GenerateProof>, args: GenerateProofArgs) -> Result<()> {
         instructions::generate_proof::handler(ctx, args)
     }
 
     /// Verify a submitted proof against the registered disclosure policy.
-    pub fn verify_proof(
-        ctx: Context<VerifyProof>,
-        args: VerifyProofArgs,
-    ) -> Result<()> {
+    pub fn verify_proof(ctx: Context<VerifyProof>, args: VerifyProofArgs) -> Result<()> {
         instructions::verify_proof::handler(ctx, args)
     }
 }

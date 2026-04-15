@@ -9,7 +9,7 @@
 ## Clone and build
 
 ```bash
-git clone https://github.com/velyadotdev/fixr.git
+git clone https://github.com/fixrlabs/fixr.git
 cd fixr
 cargo build --workspace
 cd sdk && npm install && npm test

@@ -28,7 +28,10 @@ pub struct RegisterDisclosure<'info> {
 }
 
 pub fn handler(ctx: Context<RegisterDisclosure>, policy: DisclosureArgs) -> Result<()> {
-    require!(policy.predicate_kind <= MAX_PREDICATE_KIND, FixrError::UnsupportedPredicate);
+    require!(
+        policy.predicate_kind <= MAX_PREDICATE_KIND,
+        FixrError::UnsupportedPredicate
+    );
 
     let registry = &mut ctx.accounts.registry;
     registry.policy_counter = registry.policy_counter.saturating_add(1);

@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/velyadotdev/fixr.git"
+    "url": "https://github.com/fixrlabs/fixr.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

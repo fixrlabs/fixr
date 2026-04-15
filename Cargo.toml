@@ -9,8 +9,8 @@ resolver = "2"
 version = "0.3.1"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/velyadotdev/fixr"
-authors = ["velyadotdev <velyadotdev@users.noreply.github.com>"]
+repository = "https://github.com/fixrlabs/fixr"
+authors = ["fixrlabs <fixrlabs@users.noreply.github.com>"]
 
 [workspace.dependencies]
 anchor-lang = { version = "0.29.0", features = ["init-if-needed"] }

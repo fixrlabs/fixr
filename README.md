@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://fixr.red"><img src="https://img.shields.io/badge/website-fixr.red-8b0000?style=for-the-badge" alt="Website" /></a>
-  <a href="https://x.com/fixrprotocol"><img src="https://img.shields.io/badge/x-@fixrprotocol-0a0a0a?style=for-the-badge&logo=x" alt="X" /></a>
+  <a href="https://x.com/fixrlabs"><img src="https://img.shields.io/badge/x-@fixrlabs-0a0a0a?style=for-the-badge&logo=x" alt="X" /></a>
 </p>
 
 # fixr --- In the red light, only what matters appears.
@@ -55,7 +55,7 @@ other Solana programs can call to verify a predicate before acting on a user.
 ## Installation
 
 ```bash
-git clone https://github.com/velyadotdev/fixr.git
+git clone https://github.com/fixrlabs/fixr.git
 cd fixr
 cargo build --workspace
 cd sdk && npm install && npm test
@@ -101,7 +101,7 @@ fixr/
 ## Links
 
 - Website: https://fixr.red
-- X: https://x.com/fixrprotocol
+- X: https://x.com/fixrlabs
 
 ## License
 
